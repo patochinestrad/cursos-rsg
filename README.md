@@ -7,5 +7,4 @@ Materiales y documentacion del curso de [docking](./docking/README.md)
 ## Dinamica
 
 Proximamente
-
-![xdd](xdd.png)
+<img src="images/xdd.png" alt="xdd" width="400"/>
