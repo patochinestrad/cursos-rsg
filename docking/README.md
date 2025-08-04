@@ -34,7 +34,7 @@
   - **UniProt**: análisis funcional, dominios, localización
   - **Literatura científica**: PubMed, ChEMBL, DrugBank
 - Estructuras 3D:
-  - **PDB**: selección basada en resolución (<2.5 Å), estado del ligando, calidad general
+  - **PDB**: selección basada en resolución (<2.5 Å), ligandos presentes, calidad general
 
 ---
 
@@ -44,7 +44,7 @@
   - Eliminación de aguas
   - Selección de cadenas relevantes
   - Adición de hidrógenos polares
-  - Asignación de cargas (Kollman)
+  - Asignación de cargas (Gasteiger)
   - Exportación a PDBQT
 - Visualización: **PyMOL**
 
