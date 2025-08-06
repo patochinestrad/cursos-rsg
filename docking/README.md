@@ -20,7 +20,7 @@
 
 - ¿Qué se necesita para iniciar?
   - Blanco molecular definido
-  - Librería química (ligandos)
+  - Librería de compuestos (ligandos)
   - Ensayo experimental sencillo para validar
 - Importancia de un blanco validado:
   - Evidencia en literatura científica
@@ -31,10 +31,10 @@
 ## Selección y Evaluación del Blanco Molecular
 
 - Recursos:
-  - **UniProt**: análisis funcional, dominios, localización
+  - **UniProt**: análisis funcional, dominios, localización - ¿Qué hago si no hay estructura?
   - **Literatura científica**: PubMed, ChEMBL, DrugBank
 - Estructuras 3D:
-  - **PDB**: selección basada en resolución (<2.5 Å), ligandos presentes, calidad general
+  - **PDB**: elegir una con buena resolución (<2.5 Å), con los residuos , calidad general
 
 ---
 
@@ -56,7 +56,6 @@
   - **PubChem**, **ZINC**, **ChEMBL**
 - Procesamiento:
   - Conversión a formato PDB (Open Babel o similares)
-  - Minimización opcional
 - Preparación con **AutoDockTools**:
   - Hidrógenos, cargas de Gasteiger
   - Definición de torsiones rotables
