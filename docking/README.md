@@ -34,11 +34,11 @@
   - **UniProt**: análisis funcional, dominios, localización - ¿Qué hago si no hay estructura?
   - **Literatura científica**: PubMed, ChEMBL, DrugBank
 - Estructuras 3D:
-  - **PDB**: elegir una con buena resolución (<2.5 Å), con los residuos , calidad general
+  - **PDB**: elegir una con buena resolución (<2.5 Å), con los residuos de interes, calidad general
 
 ---
 
-## 🔹 Módulo 4: Preparación del Blanco Molecular
+## Preparación del Blanco Molecular
 
 - Herramienta: **AutoDockTools**
   - Eliminación de aguas
@@ -46,14 +46,23 @@
   - Adición de hidrógenos polares
   - Asignación de cargas (Gasteiger)
   - Exportación a PDBQT
-- Visualización: **PyMOL**
 
 ---
 
-## 🔹 Módulo 5: Preparación de los Ligandos
+## Definición del Target (Gridbox)
+- Busqueda de cavidades: **FPocket**
+- Definicion por bibliografia: ¿Qué hago si no hay un pocket en mi region de interes?
+- Herramienta: **AutoDockTools**
+  - Coordenadas XYZ
+  - Dimensiones del grid: Spacing//Tamanio
+
+---
+
+## Preparación de los Ligandos
 
 - Recursos:
   - **PubChem**, **ZINC**, **ChEMBL**
+- Bases de compuestos: Generales vs Especificas
 - Procesamiento:
   - Conversión a formato PDB (Open Babel o similares)
 - Preparación con **AutoDockTools**:
@@ -63,18 +72,8 @@
 
 ---
 
-## 🔹 Módulo 6: Definición del Sitio Activo (Gridbox)
 
-- Métodos para seleccionar el centro:
-  - Usar ligando co-cristalizado
-  - Selección visual de cavidades
-- Herramienta: **AutoDockTools**
-  - Coordenadas XYZ
-  - Dimensiones del grid
-
----
-
-## 🔹 Módulo 7: Docking Molecular
+## Docking Molecular
 
 - Herramienta: **AutoDock Vina**
   - Parámetros principales:
@@ -85,7 +84,7 @@
 
 ---
 
-## 🔹 Módulo 8: Análisis de Resultados
+## Análisis de Resultados
 
 - Visualización de poses:
   - **AutoDockTools**
@@ -103,26 +102,30 @@
 
 ---
 
-## 🔹 Módulo 9: Buenas Prácticas y Consejos Finales
+## Buenas Prácticas y Consejos Finales
 
-- Comparación con ligando co-cristalizado
 - Comprensión biológica del blanco
 - Limitaciones del docking
 - Reproducibilidad:
   - Registro de parámetros
   - Almacenamiento de archivos
+- Seleccion de proyectos:
+  - Que blanco?
+  - Que costos?
+  - Que financiacion?
+  - Que posibilidad de validacion?
 
 ---
 
-## 🔹 Módulo 10 (Opcional): Próximos Pasos
+## Próximos Pasos
 
-- Dinámica molecular (GROMACS, MDWeb)
+- Dinámica molecular: GROMACS, Amber, Charmm, Desmond
 - Screening virtual a gran escala
 - Machine Learning aplicado a priorización de compuestos
 
 ---
 
-## 🧰 Herramientas por Etapa
+## Resumen de herramientas
 
 | Etapa                   | Herramientas                             |
 | ----------------------- | ---------------------------------------- |
@@ -135,9 +138,10 @@
 
 ---
 
-## 📦 Recursos Extra (Opcionales)
+## Links 
 
 - [AutoDock Vina GitHub](https://github.com/ccsb-scripps/AutoDock-Vina)
+- [ADT/MGL Tools](https://ccsb.scripps.edu/mgltools/)
 - [PLIP Web Server](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index)
 - [RCSB PDB](https://www.rcsb.org)
 - [UniProt](https://www.uniprot.org)
