@@ -1,8 +1,10 @@
 name: RSGDocking
 channels:
   - conda-forge
+  - schrodinger
 dependencies:
   - python=3.11
+  - pymol-bundle
   - meeko
   - fpocket
   - seaborn
@@ -15,6 +17,7 @@ dependencies:
   - molscrub
   - multiprocess
   - chemicalite
+  - plip
   - pip:
       - ringtail
       - git+https://github.com/prody/ProDy.git@main#egg=prody
